@@ -11,8 +11,8 @@ export const Navbar:FC<any> = props => {
             <Link to="/profile" underlayColor="#f0f4f7">
                 <Text style={styles.text}>Profile</Text>
             </Link>
-            <Link to="/" underlayColor="#f0f4f7">
-                <Text style={styles.text}>Home</Text>
+            <Link to="/settings" underlayColor="#f0f4f7">
+                <Text style={styles.text}>Settings</Text>
             </Link>
         </View>
     )

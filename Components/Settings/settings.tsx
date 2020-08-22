@@ -4,10 +4,10 @@ import {Text, View} from "react-native";
 
 
 
-export const Training: FC<any> = props => {
+export const Settings: FC<any> = props => {
     return (
         <View>
-            <Text>Traing</Text>
+            <Text>Settings</Text>
         </View>
     )
 }
